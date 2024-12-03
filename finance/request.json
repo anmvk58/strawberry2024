@@ -1,0 +1,22 @@
+{
+  "BranchIds": [
+    1223207
+  ],
+  "PriceBookIds": [],
+  "FromDate": "2023-12-30T17:00:00.000Z",
+  "ToDate": "2024-01-01T17:00:00.000Z",
+  "FromDateStr": "30/12/2023 00:00:00",
+  "ToDateStr": "01/01/2024 00:00:00",
+  "TimeRange": "other",
+  "InvoiceStatus": [
+    "1"
+  ],
+  "UsingCod": [],
+  "TableIds": [],
+  "SalechannelIds": [],
+  "StartDeliveryDate": null,
+  "EndDeliveryDate": null,
+  "StartDeliveryDateStr": null,
+  "EndDeliveryDateStr": null,
+  "UsingPrescription": 2
+}
