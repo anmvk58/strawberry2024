@@ -7,6 +7,7 @@ if __name__ == '__main__':
     list_sl = []
 
     for line in lines:
+        line = line.replace("\"", "")
         line = line.replace("cb bi nhỡ", "combo_bi_nho")
         line = line.replace("cb 4 bi", "combo_4_bi")
         line = line.replace("cb bi", "combo_bi")
