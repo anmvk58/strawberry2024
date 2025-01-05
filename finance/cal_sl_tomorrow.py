@@ -1,7 +1,7 @@
-SHIP_PATH = "C:\\Users\\AnMV\\Desktop\\Dâu\\input_sl.txt"
+from latest_version.config import CAL_PATH
 
 if __name__ == '__main__':
-    f = open(SHIP_PATH, mode="r", encoding="utf-8")
+    f = open(CAL_PATH, mode="r", encoding="utf-8")
     lines = f.readlines()
 
     list_sl = []
@@ -15,7 +15,7 @@ if __name__ == '__main__':
         line = line.replace("cb vip bi", "combo_vip_bi")
         line = line.replace("cb nhỡ bi", "combo_nho_bi")
         line = line.replace("cb nhỡ", "combo_nho")
-        temp = line.replace("\"","").replace("hộp quà ","").replace("  ", " ").split(" ")
+        temp = line.replace("\"", "").replace("hộp quà ", "").replace("  ", " ").split(" ")
         obj_temp = [temp[1].replace("\n", "").lower(), temp[0]]
         list_sl.append(obj_temp)
         # print(obj_temp)
@@ -62,13 +62,13 @@ if __name__ == '__main__':
         if obj[0].lower() == "quýt":
             quyt += float(obj[1])
 
-
     print("Svip: " + str(svip))
-    print("Vip: " + str(vip + combo_vip_nho/2 + combo_vip_bi))
-    print("Nhỡ: " + str(nho + combo_bi_nho/2 + combo_vip_nho/2 + combo_nho*2 + combo_nho_bi))
-    print("Bi: " + str(bi + combo_bi_nho/2 + combo_bi*1.5 + combo_vip_bi + combo_nho_bi + combo_4_bi*2))
+    print("Vip: " + str(vip + combo_vip_nho / 2 + combo_vip_bi))
+    print("Nhỡ: " + str(nho + combo_bi_nho / 2 + combo_vip_nho / 2 + combo_nho * 2 + combo_nho_bi))
+    print("Bi: " + str(bi + combo_bi_nho / 2 + combo_bi * 1.5 + combo_vip_bi + combo_nho_bi + combo_4_bi * 2))
     print("Ve: " + str(ve))
     print("Quýt: " + str(quyt))
     # print("Combo bi nhỡ: " + str(combo_bi_nho))
     # print("Combo bi: " + str(combo_bi))
-    print("Total: " + str(svip + vip + nho + bi + ve + combo_bi_nho + combo_vip_nho + combo_vip_bi*2 + combo_nho_bi*2 + combo_bi*1.5 + combo_nho*2 + combo_4_bi*2))
+    print("Total: " + str(
+        svip + vip + nho + bi + ve + combo_bi_nho + combo_vip_nho + combo_vip_bi * 2 + combo_nho_bi * 2 + combo_bi * 1.5 + combo_nho * 2 + combo_4_bi * 2))

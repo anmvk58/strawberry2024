@@ -1,4 +1,6 @@
 import os
+import time
+
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -9,7 +11,7 @@ from latest_version.shipper_utils import make_shipper, calculate_for_one_ship, e
 
 if __name__ == '__main__':
     filename = datetime.today().strftime('%Y%m%d')
-    # filename = "20241206"
+    # filename = "20241231"
 
     # Đọc dữ liệu thống kê shipper đi đơn
     df_shipper = make_shipper(SHIP_PATH)
@@ -46,7 +48,7 @@ if __name__ == '__main__':
 
     # Start Export kết quả ra xlsx và export ra ảnh tính của từng ship
     try:
-        os.mkdir(f"{BASE_PATH}\\{filename}")
+        # os.mkdir(f"{BASE_PATH}\\{filename}")
         writer = pd.ExcelWriter(f"{BASE_PATH}\\{filename}_result.xlsx", engine='xlsxwriter')
         df_total.to_excel(writer, sheet_name='Invoices', index=False)
     except Exception as e:
@@ -76,7 +78,8 @@ if __name__ == '__main__':
         format_sheet_excel(writer, ship)
 
         # export ra ảnh tính toán của 01 ship để gửi qua zalo cho tiện
-        export_png_for_one_ship(df_ship, tong_tien, tien_ship, phai_thu, filename, ship)
+        # export_png_for_one_ship(df_ship, tong_tien, tien_ship, phai_thu, filename, ship)
+        time.sleep(0.5)
         print("--- Done: {}".format(ship))
 
     # ghi kết quả tổng hợp các shipper vào cuối của trang tính:
@@ -88,3 +91,5 @@ if __name__ == '__main__':
     writer.close()
 
     print('Finish ' + filename)
+
+

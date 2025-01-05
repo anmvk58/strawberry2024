@@ -30,6 +30,10 @@ def make_bill(bill):
     :type bill: str
     :return: mã bill đã được chuẩn hóa
     """
+    # nếu length >= 9 thì return luôn
+    if len(bill) >= 9:
+        return bill
+
     # 1.check có phải đơn chỉnh sửa hay không:
     modify_flag = False
     if '.' in bill:
@@ -54,16 +58,20 @@ def make_bill(bill):
 
 
 def format_sheet_excel(writer, sheet_name):
-    sheet = writer.sheets[sheet_name]
-    sheet.set_column(0, 0, 13)  # Mã hóa đơn
-    sheet.set_column(1, 1, 20)  # Khách hàng
-    sheet.set_column(2, 2, 12)  # Điện thoại
-    sheet.set_column(3, 3, 70)  # Địa chỉ
-    sheet.set_column(4, 4, 10)  # Shipper
-    sheet.set_column(5, 5, 5)  # CK
-    sheet.set_column(6, 6, 13)  # Khách cần trả
-    sheet.set_column(7, 7, 13)  # Total_money
-    sheet.set_column(8, 8, 13)  # Shipper_code
+    worksheet = writer.sheets[sheet_name]
+    workbook = writer.book
+    number_format = workbook.add_format({'num_format': '#,##0'})
+
+    worksheet.set_column(0, 0, 13)  # Mã hóa đơn
+    worksheet.set_column(1, 1, 20)  # Khách hàng
+    worksheet.set_column(2, 2, 12)  # Điện thoại
+    worksheet.set_column(3, 3, 70)  # Địa chỉ
+    worksheet.set_column(4, 4, 10)  # Shipper
+    worksheet.set_column(5, 5, 5)   # CK
+    worksheet.set_column(6, 6, 13, number_format)  # Khách cần trả
+    worksheet.set_column(7, 7, 13, number_format)  # Total_money
+    worksheet.set_column(8, 8, 13)  # Shipper_code
+
 
 
 def additional_info_for_total_ship(writer, sheet_name, numb_of_shipper):
