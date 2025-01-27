@@ -11,7 +11,7 @@ from latest_version.shipper_utils import make_shipper, calculate_for_one_ship, e
 
 if __name__ == '__main__':
     filename = datetime.today().strftime('%Y%m%d')
-    # filename = "20241231"
+    # filename = "20250126"
 
     # Đọc dữ liệu thống kê shipper đi đơn
     df_shipper = make_shipper(SHIP_PATH)
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
         # export ra ảnh tính toán của 01 ship để gửi qua zalo cho tiện
         # export_png_for_one_ship(df_ship, tong_tien, tien_ship, phai_thu, filename, ship)
-        time.sleep(0.5)
+        time.sleep(0.2)
         print("--- Done: {}".format(ship))
 
     # ghi kết quả tổng hợp các shipper vào cuối của trang tính:

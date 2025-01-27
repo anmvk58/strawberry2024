@@ -1,90 +1,123 @@
-2 ve sáng
-"2 svip
-1 vip"
 "0.5 vip
-0.5 nhỡ sáng"
-1 ve
-"2 vip
-1 svip"
-1 svip đã ck
-1 ve sasbg'
-"1 vip
-1 nhỡ sáng"
-2 bi
-2 svip
-2 bi
-2 bi
-0.5 nhỡ
-"1 ve
-1 nhỡ
-0.5 vip trc 3h"
-2 svip
-3 bi trc 9h30
-2 bi
-2 bi sáng
-2 bi
-2 bi
+1.5 bi t4 ship 6h"
+2 bi sau 2h
+3 ve
+"1 hộp quà nhỡ t4 ship
+1 bi"
 "1 bi
+1 ve
+2 hộp quà vip t4 ship"
+2 hộp quà svip thứ 4 ship
+3 hộp quà svip 
+5 vip đầu chiều
+"1 hộp quà svip khách book ship
+1 hộp quà nhỡ"
+"1.5 nhỡ
+0.5 ve"
+0.5 svip
+1 nhỡ
+"1 nhỡ sáng
+0.5 vip"
+1 svip trc 4h
+1 ve
+4 vip xuất hóa đơn 2 túi giấy 30k 
+1 vip chiều
+1 hộp quà vip sáng
+1 hộp quà vip
+"1.5 ve
+0.5 svip"
+"1.5 ve
+0.5 nhỡ"
+2 svip sáng
+2 bi sáng
+1 bi sáng
+"1 nhỡ
+1 hộp quà nhỡ trưa"
+3 hộp quà svip chiều
+1 vip hc
+1 bi
+1 hộp quà nhỡ
+1 ve
+"1 vip
+0.5 nhỡ
+0.5 bi"
+1 ve
+2 nhỡ
+1 hộp quà svip
+1 svip sáng
+"2 nhỡ
+0.5 ve"
+"2.5 bi
+0.5 vip"
+"2 bi
+1 ve sáng"
+"1.5 bi
+0.5 nhỡ"
+1 bi sáng
+1 ve
+3.5 vip
+1 svip
+2 ve
+2 bi
+0.5 svip
+2 ve
+"1 ve
+1.5 vip"
+1 bi sáng
+2 svip sáng
+1 vip
+2 ve
+"1 vip
+1 bi trc 11h"
+0.5 vip sáng
+"3 hộp quà vip
+2 nhỡ"
+0.5 nhỡ
+2 vip sáng
+"2.5 ve
+0.5 bi"
+"1 hộp quà vip
+0.5 svip sáng"
+2 nhỡ
+2 nhỡ
+"1 vip
+1 svip"
+2 vip chiều
+2 bi
+2 ve
+"1.5 nhỡ
+0.5 vip"
+"1 vip
+1 nhỡ"
+2 ve
+0.5 svip
+"0.5 nhỡ
 1 ve"
-0.5 vip
-"1.5 vip
-0.5 bi trc 10h"
-1 vip trc 12h
+2 vip
+1 hộp quà svip sáng
+1 hộp quà svip
+4 hộp quà nhỡ
+2 nhỡ
+1 nhỡ
+2 bi
+1 svip
+1 nhỡ
+"0.5 bi
+0.5 nhỡ sáng đỏ"
+"1 hộp quà svip
+1 ve"
+2 vip
+"1 svip
+1 nhỡ"
 "0.5 nhỡ
 0.5 bi"
-2 bi
+2 vip sáng
+"1 svip
+1.5 ve"
+3 vip sau 2h
 1 bi
-1 bi
-2 bi
-1 bi
-1 nhỡ
-2 nhỡ
-"1 bi
-1 ve"
-"0.5 bi
-0.5 vip"
-1 ve
-1 nhỡ
-"0.5 bi
-0.5 ve ship 2-5h "
-"0.5 nhỡ
-3 vip"
-2 bi trước 11h
-1 ve
-2 bi
-"1 bi
-1 ve sau 2h"
-"0.5 ve
-0.5 nhỡ"
-2 ve sáng trc 11h
-1 nhỡ
 2 ve
-1 ve
-1 ve
-1 bi
-"0.5 bi
-0.5 nhỡ sau 10h"
-1 ve
-2 ve trc 9h30
-"1 nhỡ
-1 ve"
-"0.5 bi
-0.5 vip"
-1 vip
 "0.5 bi
 0.5 nhỡ"
-"0.5 bi
-0.5 ve chiều"
-"1 bi
-1 vip"
-1 ve sáng
 "1 ve
-1 nhỡ"
-0.5 bi
-1 nhỡ sáng
-2 ve sáng
-"0.5 bi
-0.5 nhỡ trc 10h"
-"1 ve
-1 nhỡ"
-2 vip
+0.5 vip trước 11h30"

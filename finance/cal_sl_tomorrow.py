@@ -67,7 +67,7 @@ if __name__ == '__main__':
     print("Nhỡ: " + str(nho + combo_bi_nho / 2 + combo_vip_nho / 2 + combo_nho * 2 + combo_nho_bi))
     print("Bi: " + str(bi + combo_bi_nho / 2 + combo_bi * 1.5 + combo_vip_bi + combo_nho_bi + combo_4_bi * 2))
     print("Ve: " + str(ve))
-    print("Quýt: " + str(quyt))
+    # print("Quýt: " + str(quyt))
     # print("Combo bi nhỡ: " + str(combo_bi_nho))
     # print("Combo bi: " + str(combo_bi))
     print("Total: " + str(

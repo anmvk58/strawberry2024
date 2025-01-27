@@ -84,8 +84,13 @@ def additional_info_for_total_ship(writer, sheet_name, numb_of_shipper):
     worksheet = writer.sheets[sheet_name]
     for i in range(numb_of_shipper):
         # lấy kí tự chr(65) = A
-        char_i = chr(66 + i * 2)
+        if (66 + i * 2) <= 90:
+            char_i = chr(66 + i * 2)
+        else:
+            char_i = 'A' + chr(66 + i * 2 - 26)
+        # print(char_i)
         # Tổng tiền nộp =SUM(B8:B13)
+        # print(f"{char_i}15", "=SUM({CHAR}9:{CHAR}14)".format(CHAR=char_i))
         worksheet.write_formula(f"{char_i}15", "=SUM({CHAR}9:{CHAR}14)".format(CHAR=char_i))
 
         # Tổng tiền ship =B5+B6
