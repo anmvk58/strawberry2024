@@ -8,6 +8,7 @@ if __name__ == '__main__':
 
     for line in lines:
         line = line.replace("\"", "")
+        line = line.replace(",", ".")
         line = line.replace("cb bi nhỡ", "combo_bi_nho")
         line = line.replace("cb 4 bi", "combo_4_bi")
         line = line.replace("cb bi", "combo_bi")
@@ -33,6 +34,7 @@ if __name__ == '__main__':
     combo_nho_bi = 0
     combo_4_bi = 0
     quyt = 0
+    man = 0
 
     for obj in list_sl:
         if obj[0].lower() == "svip":
@@ -61,12 +63,15 @@ if __name__ == '__main__':
             combo_4_bi += float(obj[1])
         if obj[0].lower() == "quýt":
             quyt += float(obj[1])
+        if obj[0].lower() == "mận":
+            man += float(obj[1])
 
     print("Svip: " + str(svip))
     print("Vip: " + str(vip + combo_vip_nho / 2 + combo_vip_bi))
     print("Nhỡ: " + str(nho + combo_bi_nho / 2 + combo_vip_nho / 2 + combo_nho * 2 + combo_nho_bi))
     print("Bi: " + str(bi + combo_bi_nho / 2 + combo_bi * 1.5 + combo_vip_bi + combo_nho_bi + combo_4_bi * 2))
     print("Ve: " + str(ve))
+    print("Mận: " + str(man))
     # print("Quýt: " + str(quyt))
     # print("Combo bi nhỡ: " + str(combo_bi_nho))
     # print("Combo bi: " + str(combo_bi))

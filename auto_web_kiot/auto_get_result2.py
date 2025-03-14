@@ -10,13 +10,14 @@ from selenium.webdriver.support import expected_conditions as ec
 
 DOMAIN = "0588582715"
 PW = "Linhan102"
-download_dir = "C:\\Users\\AnMV\\Desktop\\Dâu"
+download_dir = "C:\\Users\\Zefus\\Desktop\\Dâu"
 
 if __name__ == '__main__':
     chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
-    user_data_dir = r"C:\Users\AnMV\AppData\Local\Google\Chrome\User Data"
+    user_data_dir = r"C:\Users\Zefus\AppData\Local\Google\Chrome\User Data"
 
     chrome_options = Options()
+    chrome_options.add_experimental_option("useAutomationExtension", False)
     chrome_options.add_argument(f"--remote-debugging-port=9222")
     chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
     chrome_options.add_argument(f"--profile-directory=Default")
